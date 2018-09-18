@@ -17,7 +17,7 @@ Device (String cod, String pro, String typ, double prc){
         type = typ;
     }
 
-     getInfo(){
-    System.out.println(code + " " + producer + " " + type + " " + price);
+    String getInfo(){
+    return code + " " + producer + " " + type + " " + price;
     }
 }
